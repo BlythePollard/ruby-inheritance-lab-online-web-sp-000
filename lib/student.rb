@@ -1,15 +1,15 @@
 class Student < User
-  # @knowledge = []
+  @@knowledge = []
   
-  # def initialize
-  #   @knowledge << self
-  # end
+  def initialize
+    @@knowledge << self
+  end
   
-  # def learn(string)
-  #   @knowledge << string
-  # end
+  def learn(string)
+    @@knowledge << string
+  end
   
-  # def knowledge
-  #   @knowledge
-  # end
+  def knowledge
+    @@knowledge
+  end
 end
